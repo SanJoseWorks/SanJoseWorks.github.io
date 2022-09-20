@@ -8,6 +8,10 @@
     margin: auto;
 }
 
+.sectionTitle{
+    margin-top: -3vh;
+}
+
 .row{
     display: grid;
     grid-template-columns: repeat(5, 20%);
