@@ -1,0 +1,41 @@
+
+
+.sectionTitle{
+    color: #ffb703;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: min(8vw, 50px);
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    margin-bottom: 5vh;
+    width: fit-content;
+    margin: auto;
+}
+
+.something {
+    font-family: 'Outfit';
+    font-weight: bold;
+    align-self: center;
+    width: 90%;
+    background-color: rgb(255,166,0);
+    border: none;
+    transition: .4s;
+    border-radius: 10px;
+
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+    color: white;
+}
+
+.something:hover{
+    border-radius: 0px;
+    background-color: rgb(255,166,0);
+    color: rgb(0,68,140);
+    border-radius: 10px;
+}
+
+opt{
+    font-family: 'Outfit', sans-serif;
+}

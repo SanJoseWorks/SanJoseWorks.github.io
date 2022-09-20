@@ -1,0 +1,55 @@
+.pics{
+    display: flex;
+}
+
+.internpic{
+    height: 50vw;
+    width: min(100%, fit-content);
+    margin: auto;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+    width: min(100%, 1320px);
+    padding-top: 2em;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+.statistics h4{
+
+    width: 200px;
+    height: 200px;
+
+    padding: 0;
+    line-height: 185px;
+    margin: auto;
+
+}
+
+.statistics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+
+    color: #1a438b;
+    text-align: center;
+
+}
+
+.mail{
+    color: #1a438b;
+}
+
+@media screen and (max-width: 1000px){
+    .row{
+        grid-template-columns: repeat(1, 100%);
+    }
+  }

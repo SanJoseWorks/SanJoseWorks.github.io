@@ -1,0 +1,62 @@
+/* body{
+    background-color: #1A438B;
+} */
+
+.sectionCard{
+    background-color:  white;
+    border-radius: 0%;
+    padding: 2% 1% 2% 1%;
+    width: min(80vw, 1320px);
+    margin: auto;
+}
+
+.sectionTitle{
+    color: #ffb703;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: min(8vw, 50px);
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    margin-bottom: 5vh;
+}
+
+.accordion{
+    width: 80%;
+
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
+
+    border-radius: 0px;
+}
+
+.accordion-item{
+
+    padding: 3px;
+    
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+    border-left: none;
+    border-right: none;
+    border-color: rgba(0,68,140, .2);
+}
+
+.accordion-header{
+    font-family: 'Outfit', sans-serif;
+    
+    opacity: 1.0;
+}
+
+.accordion-button{
+    background-color: white ;
+    color: #1A438B;
+}
+
+.accordion-button:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.accordion-body{
+    font-family: 'Outfit', sans-serif;
+}

@@ -1,0 +1,33 @@
+{
+  "events": [
+    {
+      "name": "San Jose Career Expo",
+      "date": "September 23, 2022: 1PM - 4PM",
+      "location": "San José McEnery Convention Center: 435 S Market Street, San José",
+      "image": "/siteimages/flyer1.png"
+    },
+
+    {
+      "name": "EFG Job Fair",
+      "date": "Apr 30 2022 - May 08 2022",
+      "location": "EFG Mall",
+      "image": "/siteimages/flyer3.png"
+    },
+
+    {
+      "name": "XYZ Job Fair",
+      "date": "Jun 08 2022 - Jun 19 2022",
+      "location": "XYZ Library",
+      "image": "/siteimages/flyer4.png"
+    },
+
+    {
+      "name": "PQR Job Fair",
+      "date": "Aug 03 2022 - Aug 21 2022",
+      "location": "PQR Library",
+      "image": "/siteimages/holiday.png"
+    }
+
+  ]
+
+}
