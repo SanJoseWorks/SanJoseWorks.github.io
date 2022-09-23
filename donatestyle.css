@@ -3,13 +3,21 @@
 }
 
 .internpic{
-    height: 50vw;
-    width: min(100%, fit-content);
+    max-height: 80vh;
+    width: fit-content;
     margin: auto;
+    margin-top: 5vh;
+
 }
 
 .sectionTitle{
-    margin-top: -3vh;
+    padding-top: 8  vh;
+}
+
+#ourProgress{
+
+    margin-top: 4vh;
+
 }
 
 .row{
@@ -21,7 +29,7 @@
     width: min(100%, 1320px);
     padding-top: 2em;
     margin: auto;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 
 .statistics h4{
