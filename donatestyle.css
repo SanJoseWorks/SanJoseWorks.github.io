@@ -58,6 +58,10 @@
     align-items: center;
 }
 
+.statistics h4:hover{
+    pointer-events: none;
+}
+
 p{
 
     color: #1a438b;
@@ -74,3 +78,4 @@ p{
         grid-template-columns: repeat(1, 100%);
     }
   }
+
