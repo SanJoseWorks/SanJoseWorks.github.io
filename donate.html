@@ -53,25 +53,55 @@ $(function(){
       
       <div class="row">
   
-        <div class="statistics">
-            <h4>$25</h4>
+        <button class="money" data-bs-toggle="modal" data-bs-target="#100">
+          <div class="statistics">
+              <h4>$100</h4>
+          </div>
+        </button>
+
+        <div class="modal fade" id="100" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="100Label">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="statistics">
-            <h4>$50</h4>
-        </div>
+        <button class="money" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="statistics">
+              <h4>$250</h4>
+          </div>
+        </button>
 
-        <div class="statistics">
-            <h4>$100</h4>
-        </div>
+        
+
+        <button class="money" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="statistics">
+              <h4>$500</h4>
+          </div>
+        </button>
   
-        <div class="statistics">
-            <h4>$150</h4>   
-        </div>
+        <button class="money" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="statistics">
+              <h4>$1000</h4>
+          </div>
+        </button>
   
-        <div class="statistics">
-            <h4>$200</h4>
-        </div>
+        <button class="money" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <div class="statistics">
+              <h4>$5000</h4>
+          </div>
+        </button>
   
       </div>
   

@@ -1,11 +1,13 @@
 .pics{
     display: flex;
+    width: 100%;
 }
 
 .internpic{
     max-height: 80vh;
     width: fit-content;
     margin: auto;
+    border: solid #1a438b 10px;
     margin-top: 5vh;
 
 }
@@ -40,6 +42,13 @@
     padding: 0;
     line-height: 185px;
     margin: auto;
+
+}
+
+.money{
+
+    background-color: transparent;
+    border: none;
 
 }
 
