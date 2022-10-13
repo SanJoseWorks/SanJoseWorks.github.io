@@ -24,6 +24,26 @@
     background-color: rgba(0,0,0,.4);
 }
 
+.icons{
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item p{
+  width: 450px;
+  color: #1a357c;
+  margin: 15px;
+  margin-top: -20px;
+  text-align: center;
+
+}
+
+.ic{
+  width: 50px;
+  margin-left: 215px;
+}
+
 /* About Us CSS */
 
 .sectionTitle{
