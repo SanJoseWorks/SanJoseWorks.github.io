@@ -12,14 +12,49 @@
 
 }
 
-.sectionTitle{
-    padding-top: 8vh;
+p{
+
+    color: #1a438b;
+    text-align: center;
+
 }
 
-#ourProgress{
+.ourProgress p{
+    color: white;
+}
 
-    margin-top: 4vh;
+.sectionTitle{
+    padding-top: 4vh;
+}
 
+#about {
+    color: white;
+}
+
+.icons{
+    margin-top: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.item p{
+    width: 400px;
+    color: #1a438b;
+    margin: 15px;
+    text-align: center;
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+.ic{
+    width: 50px;
 }
 
 .row{
@@ -95,12 +130,7 @@
 }
 
 
-p{
 
-    color: #1a438b;
-    text-align: center;
-
-}
 
 .mail{
     color: #1a438b;
@@ -109,6 +139,14 @@ p{
 @media screen and (max-width: 1000px){
     .row{
         grid-template-columns: repeat(1, 100%);
+    }
+  }
+
+  
+@media screen and (max-width: 500px){
+    .video{
+        width: 350px;
+        height: auto;
     }
   }
 
