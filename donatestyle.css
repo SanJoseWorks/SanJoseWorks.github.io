@@ -39,11 +39,10 @@ p{
 }
   
 .item p{
-    width: 400px;
+    width: 300px;
     color: #1a438b;
-    margin: 15px;
     text-align: center;
-
+    margin-top: -50px;
 }
 
 .item{
@@ -54,7 +53,7 @@ p{
 }
   
 .ic{
-    width: 50px;
+    width: 150px;
 }
 
 .row{
