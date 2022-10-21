@@ -1,31 +1,31 @@
 {
   "events": [
     {
-      "name": "San Jose Career Expo",
-      "date": "September 23, 2022: 1PM - 4PM",
-      "location": "San José McEnery Convention Center: 435 S Market Street, San José",
+      "name": "Career Fair",
+      "date": "October 25, 2022: 10am - 2pm",
+      "location": "Mexican Heritage Plaza: 1700 Alum Rock Avenue, San Jose",
       "image": "/siteimages/job fair 1-1.png"
     },
 
     {
-      "name": "EFG Job Fair",
-      "date": "Apr 30 2022 - May 08 2022",
-      "location": "EFG Mall",
-      "image": "/siteimages/flyer3.png"
-    },
-
-    {
-      "name": "XYZ Job Fair",
-      "date": "Jun 08 2022 - Jun 19 2022",
-      "location": "XYZ Library",
+      "name": "IT Support Training Program",
+      "date": "November 9, 2022",
+      "location": "Online",
       "image": "/siteimages/Flyer number 2-1.png"
     },
 
     {
-      "name": "PQR Job Fair",
-      "date": "Aug 03 2022 - Aug 21 2022",
-      "location": "PQR Library",
-      "image": "/siteimages/holiday.png"
+      "name": "Career Fair",
+      "date": "October 25, 2022: 10am - 2pm",
+      "location": "Mexican Heritage Plaza: 1700 Alum Rock Avenue, San Jose",
+      "image": "/siteimages/job fair 1-1.png"
+    },
+
+    {
+      "name": "IT Support Training Program",
+      "date": "November 9, 2022",
+      "location": "Online",
+      "image": "/siteimages/Flyer number 2-1.png"
     }
 
   ]

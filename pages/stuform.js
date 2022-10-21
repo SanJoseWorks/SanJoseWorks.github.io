@@ -7,13 +7,9 @@ const form = document.querySelector("form");
 const name = document.querySelector("#name");
 const email = document.querySelector("#email");
 const hs = document.querySelector("#hs");
-const grade = document.querySelector("#grade");
 const studentid = document.querySelector("#studentid");
-const pathway = document.querySelector("#pathway");
-const numClasses = document.querySelector("#numClasses");
+const age = document.querySelector("#age");
 const why = document.querySelector("#why");
-const teacher = document.querySelector("#teacher");
-const teacherEmail = document.querySelector("#teacherEmail");
 
 
 /* event listener */
@@ -25,13 +21,9 @@ form.addEventListener('submit', function(e){
         	name.value = '';
         	email.value = '';
         	hs.value = '';
-        	grade.value = '';
+			age.value = '';
         	studentid.value = '';
-        	pathway.value = '';
-        	numClasses.value = '';
         	why.value = '';
-        	teacher.value = '';
-        	teacherEmail.value = '';
         	alert("Application Successfully Submitted! We will contact you soon.");
     	})
         .catch(error => alert('Error!', error.message))
